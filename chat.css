@@ -214,14 +214,15 @@ yt-live-chat-ticker-sponsor-item-renderer * {
 
 yt-live-chat-mode-change-message-renderer, 
 yt-live-chat-viewer-engagement-message-renderer, 
-yt-live-chat-restricted-participation-renderer {
+yt-live-chat-restricted-participation-renderer,
+yt-live-chat-poll-renderer {
   display: none !important;
 }
 
+/* hide pinned messages in chat box*/
 yt-live-chat-banner-manager {
   display: none !important;
 }
-
 
 yt-live-chat-action-panel-renderer, 
 yt-live-chat-renderer #action-panel {
@@ -236,6 +237,7 @@ yt-live-chat-viewer-engagement-message-renderer {
   display: none !important;
 }
 
+/*hide scroll that appears on the left side of the chat window*/
 .style-scope yt-live-chat-header-renderer {
   display: none;
 }
